@@ -1,0 +1,28 @@
+@media screen and (max-width: 767px) {
+    .container {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .logo {
+        grid-row: 1 / 2;
+        grid-column: 1 / 2;
+    }
+
+    .left {
+        grid-row: 3 / 4;
+        grid-column: 1 / 2;
+        width: 100%;
+        padding-top: 100px;
+    }
+
+    .right {
+        grid-row: 2 / 3;
+        grid-column: 1 / 2;
+        width: 100%;
+    }
+
+    .go {
+        margin: 100px auto 11px;
+    }
+}
